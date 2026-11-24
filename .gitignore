@@ -1,0 +1,22 @@
+# macOS, Python
+.DS_Store
+__pycache__/
+*.pyc
+
+# KiCad local state and backups
+*.kicad_prl
+*.lck
+fp-info-cache
+*-backups/
+.mcp-backups/
+_autosave-*
+*-bak
+
+# intermediate build files: netlists, autorouter sessions, board backups
+kicad/build/
+
+# local working notes and superseded explanatory drawings
+WORKING.md
+draw_board.py
+/*.png
+/*.svg
